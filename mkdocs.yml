@@ -1,1 +1,186 @@
 site_name: BOTC Role Bible
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+  # AUTO-GENERATED NAV START
+  - Roles:
+    - Overview: roles/index.md
+    - By Script:
+      - Trouble Brewing:
+        - Overview: roles/trouble_brewing/index.md
+        - Townsfolk:
+          - Overview: roles/trouble_brewing/townsfolk/index.md
+          - Chef: roles/trouble_brewing/townsfolk/chef.md
+          - Empath: roles/trouble_brewing/townsfolk/empath.md
+          - Fortune Teller: roles/trouble_brewing/townsfolk/fortune_teller.md
+          - Investigator: roles/trouble_brewing/townsfolk/investigator.md
+          - Librarian: roles/trouble_brewing/townsfolk/librarian.md
+          - Mayor: roles/trouble_brewing/townsfolk/mayor.md
+          - Monk: roles/trouble_brewing/townsfolk/monk.md
+          - Ravenkeeper: roles/trouble_brewing/townsfolk/ravenkeeper.md
+          - Slayer: roles/trouble_brewing/townsfolk/slayer.md
+          - Soldier: roles/trouble_brewing/townsfolk/soldier.md
+          - Undertaker: roles/trouble_brewing/townsfolk/undertaker.md
+          - Virgin: roles/trouble_brewing/townsfolk/virgin.md
+          - Washerwoman: roles/trouble_brewing/townsfolk/washerwoman.md
+        - Outsiders:
+          - Overview: roles/trouble_brewing/outsiders/index.md
+          - Butler: roles/trouble_brewing/outsiders/butler.md
+          - Drunk: roles/trouble_brewing/outsiders/drunk.md
+          - Recluse: roles/trouble_brewing/outsiders/recluse.md
+          - Saint: roles/trouble_brewing/outsiders/saint.md
+        - Minions:
+          - Overview: roles/trouble_brewing/minions/index.md
+          - Baron: roles/trouble_brewing/minions/baron.md
+          - Poisoner: roles/trouble_brewing/minions/poisoner.md
+          - Scarlet Woman: roles/trouble_brewing/minions/scarlet_woman.md
+          - Spy: roles/trouble_brewing/minions/spy.md
+        - Demons:
+          - Overview: roles/trouble_brewing/demons/index.md
+          - Imp: roles/trouble_brewing/demons/imp.md
+      - Sects and Violets:
+        - Overview: roles/sects_and_violets/index.md
+        - Townsfolk:
+          - Overview: roles/sects_and_violets/townsfolk/index.md
+          - Artist: roles/sects_and_violets/townsfolk/artist.md
+          - Clockmaker: roles/sects_and_violets/townsfolk/clockmaker.md
+          - Dreamer: roles/sects_and_violets/townsfolk/dreamer.md
+          - Flowergirl: roles/sects_and_violets/townsfolk/flowergirl.md
+          - Juggler: roles/sects_and_violets/townsfolk/juggler.md
+          - Mathematician: roles/sects_and_violets/townsfolk/mathematician.md
+          - Oracle: roles/sects_and_violets/townsfolk/oracle.md
+          - Philosopher: roles/sects_and_violets/townsfolk/philosopher.md
+          - Sage: roles/sects_and_violets/townsfolk/sage.md
+          - Savant: roles/sects_and_violets/townsfolk/savant.md
+          - Seamstress: roles/sects_and_violets/townsfolk/seamstress.md
+          - Snake Charmer: roles/sects_and_violets/townsfolk/snake_charmer.md
+          - Town Crier: roles/sects_and_violets/townsfolk/town_crier.md
+        - Outsiders:
+          - Overview: roles/sects_and_violets/outsiders/index.md
+          - Barber: roles/sects_and_violets/outsiders/barber.md
+          - Klutz: roles/sects_and_violets/outsiders/klutz.md
+          - Mutant: roles/sects_and_violets/outsiders/mutant.md
+          - Sweetheart: roles/sects_and_violets/outsiders/sweetheart.md
+        - Minions:
+          - Overview: roles/sects_and_violets/minions/index.md
+          - Cerenovus: roles/sects_and_violets/minions/cerenovus.md
+          - Evil Twin: roles/sects_and_violets/minions/evil_twin.md
+          - Pit Hag: roles/sects_and_violets/minions/pit-hag.md
+          - Witch: roles/sects_and_violets/minions/witch.md
+        - Demons:
+          - Overview: roles/sects_and_violets/demons/index.md
+          - Fang Gu: roles/sects_and_violets/demons/fang_gu.md
+          - No Dashii: roles/sects_and_violets/demons/no_dashii.md
+          - Vigormortis: roles/sects_and_violets/demons/vigormortis.md
+          - Vortox: roles/sects_and_violets/demons/vortox.md
+      - Bad Moon Rising:
+        - Overview: roles/bad_moon_rising/index.md
+        - Townsfolk:
+          - Overview: roles/bad_moon_rising/townsfolk/index.md
+          - Chambermaid: roles/bad_moon_rising/townsfolk/chambermaid.md
+          - Courtier: roles/bad_moon_rising/townsfolk/courtier.md
+          - Exorcist: roles/bad_moon_rising/townsfolk/exorcist.md
+          - Fool: roles/bad_moon_rising/townsfolk/fool.md
+          - Gambler: roles/bad_moon_rising/townsfolk/gambler.md
+          - Gossip: roles/bad_moon_rising/townsfolk/gossip.md
+          - Grandmother: roles/bad_moon_rising/townsfolk/grandmother.md
+          - Innkeeper: roles/bad_moon_rising/townsfolk/innkeeper.md
+          - Minstrel: roles/bad_moon_rising/townsfolk/minstrel.md
+          - Pacifist: roles/bad_moon_rising/townsfolk/pacifist.md
+          - Professor: roles/bad_moon_rising/townsfolk/professor.md
+          - Sailor: roles/bad_moon_rising/townsfolk/sailor.md
+          - Tea Lady: roles/bad_moon_rising/townsfolk/tea_lady.md
+        - Outsiders:
+          - Overview: roles/bad_moon_rising/outsiders/index.md
+          - Goon: roles/bad_moon_rising/outsiders/goon.md
+          - Lunatic: roles/bad_moon_rising/outsiders/lunatic.md
+          - Moonchild: roles/bad_moon_rising/outsiders/moonchild.md
+          - Tinker: roles/bad_moon_rising/outsiders/tinker.md
+        - Minions:
+          - Overview: roles/bad_moon_rising/minions/index.md
+          - Assassin: roles/bad_moon_rising/minions/assassin.md
+          - Devils Advocate: roles/bad_moon_rising/minions/devils_advocate.md
+          - Godfather: roles/bad_moon_rising/minions/godfather.md
+          - Mastermind: roles/bad_moon_rising/minions/mastermind.md
+        - Demons:
+          - Overview: roles/bad_moon_rising/demons/index.md
+          - Po: roles/bad_moon_rising/demons/po.md
+          - Pukka: roles/bad_moon_rising/demons/pukka.md
+          - Shabaloth: roles/bad_moon_rising/demons/shabaloth.md
+          - Zombuul: roles/bad_moon_rising/demons/zombuul.md
+      - Experimental:
+        - Overview: roles/experimental/index.md
+        - Townsfolk:
+          - Overview: roles/experimental/townsfolk/index.md
+          - Alchemist: roles/experimental/townsfolk/alchemist.md
+          - Atheist: roles/experimental/townsfolk/atheist.md
+          - Balloonist: roles/experimental/townsfolk/balloonist.md
+          - Bounty Hunter: roles/experimental/townsfolk/bounty_hunter.md
+          - Engineer: roles/experimental/townsfolk/engineer.md
+          - Magician: roles/experimental/townsfolk/magician.md
+          - Poppy Grower: roles/experimental/townsfolk/poppy_grower.md
+        - Outsiders:
+          - Overview: roles/experimental/outsiders/index.md
+          - Heretic: roles/experimental/outsiders/heretic.md
+        - Minions:
+          - Overview: roles/experimental/minions/index.md
+          - Marionette: roles/experimental/minions/marionette.md
+        - Demons:
+          - Overview: roles/experimental/demons/index.md
+          - Legion: roles/experimental/demons/legion.md
+    - By Type:
+      - Overview: roles/types/index.md
+      - Townsfolk: roles/types/townsfolk.md
+      - Outsiders: roles/types/outsiders.md
+      - Minions: roles/types/minions.md
+      - Demons: roles/types/demons.md
+
+  - Scripts:
+    - Overview: scripts/index.md
+    - Trouble Brewing:
+      - Start Here: scripts/trouble_brewing/index.md
+      - Overview: scripts/trouble_brewing/overview.md
+      - Strategy:
+        - Overview: scripts/trouble_brewing/strategy/index.md
+        - Building And Testing Worlds: scripts/trouble_brewing/strategy/building_and_testing_worlds.md
+        - Poisoning And Drunkenness: scripts/trouble_brewing/strategy/poisoning_and_drunkenness.md
+    - Sects and Violets:
+      - Start Here: scripts/sects_and_violets/index.md
+      - Overview: scripts/sects_and_violets/overview.md
+      - Strategy:
+        - Overview: scripts/sects_and_violets/strategy/index.md
+        - Madness And Social Pressure: scripts/sects_and_violets/strategy/madness_and_social_pressure.md
+        - Managing Conflicting Information: scripts/sects_and_violets/strategy/managing_conflicting_information.md
+    - Bad Moon Rising:
+      - Start Here: scripts/bad_moon_rising/index.md
+      - Overview: scripts/bad_moon_rising/overview.md
+      - Strategy:
+        - Overview: scripts/bad_moon_rising/strategy/index.md
+        - All Sources Of Death: scripts/bad_moon_rising/strategy/all_sources_of_death.md
+        - Protection Layers: scripts/bad_moon_rising/strategy/protection_layers.md
+        - Reading No Death Nights: scripts/bad_moon_rising/strategy/reading_no_death_nights.md
+        - Reading The Night: scripts/bad_moon_rising/strategy/reading_the_night.md
+  - Strategy:
+    - Overview: strategy/index.md
+    - How To Evaluate A Claim: strategy/how_to_evaluate_a_claim.md
+    - How To Recognize A Heretic Game: strategy/how_to_recognize_a_heretic_game.md
+    - How To Recognize A Legion Game: strategy/how_to_recognize_a_legion_game.md
+    - How To Recognize An Atheist Game: strategy/how_to_recognize_an_atheist_game.md
+    - Three Ways To Solve A Game: strategy/three_ways_to_solve_a_game.md
+    - What Makes A Good Execution: strategy/what_makes_a_good_execution.md
+    - When The Game Might Be Different Than You Think: strategy/when_the_game_might_be_different_than_you_think.md
+    - When To Trust Information: strategy/when_to_trust_information.md
+  # AUTO-GENERATED NAV END
+
+  - Reference:
+      - Overview: reference/index.md
+      - Bluffing Basics: reference/bluffing_basics.md
+      - Good Play Basics: reference/good_play_basics.md
+      - Evil Play Basics: reference/evil_play_basics.md
+      - Setup Logic: reference/setup_logic.md
+      - Poisoning and Drunkenness: reference/poisoning_and_drunkenness.md
+      - Final Three: reference/final_three.md
+      - Glossary: reference/glossary.md
